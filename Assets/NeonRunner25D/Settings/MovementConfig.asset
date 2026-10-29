@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d07202acaae2f49aef158919a64113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeonRunner.MovementConfig
+  maxRunSpeed: 13
+  groundAcceleration: 170
+  groundDeceleration: 190
+  airAcceleration: 120
+  airDeceleration: 60
+  groundOverspeedDeceleration: 40
+  airOverspeedDeceleration: 10
+  flowMaxSpeed: 19
+  flowBuildTime: 1.4
+  flowDecay: 2.5
+  landingGrace: 0.12
+  jumpHeight: 3.4
+  timeToJumpApex: 0.34
+  fallGravityMultiplier: 1.7
+  jumpCutMultiplier: 0.45
+  apexHangThreshold: 1.8
+  apexGravityMultiplier: 0.6
+  maxFallSpeed: 26
+  coyoteTime: 0.1
+  jumpBufferTime: 0.12
+  jumpHorizontalBoost: 2.5
+  fastFallMaxSpeed: 34
+  fastFallAcceleration: 60
+  slideMinSpeed: 6
+  slideBoost: 4
+  slideFriction: 7
+  slideCooldown: 0.45
+  slideCrawlSpeed: 6
+  slideHeight: 0.7
+  slideJumpBoost: 3
+  slideJumpHeightScale: 0.85
+  vaultMaxHeight01: 0.75
+  vaultMinSpeed: 5
+  vaultUpVelocity: 13
+  wallRunMinSpeed: 10
+  wallRunUpSpeedMin: 11
+  wallRunUpSpeedMax: 16
+  wallRunConversion: 0.85
+  wallRunDuration: 0.38
+  ceilingCornerCorrection: 0.35
+  dashLedgeCorrection: 0.35
+  wallSpeedRetentionTime: 0.06
+  wallSlideSpeed: 3
+  wallJumpVelocity: {x: 13, y: 17.3}
+  wallJumpControlLock: 0.15
+  wallCoyoteTime: 0.08
+  wallJumpCheckDistance: 0.3
+  climbJumps: 4
+  climbJumpVelocity: {x: 2.9, y: 17.9}
+  climbJumpControlLock: 0.08
+  wallSlideFriction: 160
+  tiredWallSlideSpeed: 7
+  ledgeHopVelocity: {x: 6, y: 11.5}
+  superWallJumpSpeed: 25.3
+  superWallJumpHorizontal: 10
+  superWallJumpCheckDistance: 0.5
+  maxDashes: 1
+  dashSpeed: 30
+  dashDuration: 0.14
+  dashEndSpeedMultiplier: 0.7
+  dashEndUpMultiplier: 0.7
+  dashBufferTime: 0.08
+  dashHitStop: 0.02
+  superDashMultiplier: 0.9
+  grappleRange: 12
+  grappleAimCone: 80
+  grapplePullAcceleration: 85
+  grapplePullMaxSpeed: 26
+  minRopeLength: 1.6
+  droneArriveDistance: 1.4
+  swingForce: 25
+  droneHackDuration: 3
+  droneLandHoldTime: 0.35
+  grappleBufferTime: 0.1
+  boostMultiplier: 1.6
+  perfectBoostBonus: 1.2
+  maxBoostSpeed: 50
+  boostWindowBeforePeak: 0.15
+  boostWindowAfterPeak: 0.2
+  perfectTolerance: 0.08
+  boostDuration: 0.45
+  boostGravityMultiplier: 0.25
+  boostDiagonalAngle: 35
+  boostNeutralAngle: 15
+  swingPeakMinSpeed: 6
+  boostHitStop: 0.06
+  taserCooldown: 0.5
+  taserSpeed: 30
+  taserRange: 5.5
+  taserStunDuration: 2
+  smokeCooldown: 6
+  smokeRadius: 5.2
+  smokeDuration: 4
