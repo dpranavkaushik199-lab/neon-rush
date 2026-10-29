@@ -14,7 +14,7 @@ public static class NeonRunner25DRelease
     const string OutputDir = "Builds/Windows";
     const string ExeName = "NeonRunner.exe";
 
-    [MenuItem("Neon Runner/Build Game (Windows)")]
+    [MenuItem("Neon Rush/Build Game (Windows)")]
     public static void BuildWindows()
     {
         var scenes = new[]
@@ -26,15 +26,15 @@ public static class NeonRunner25DRelease
         foreach (var scene in scenes)
             if (!File.Exists(scene))
             {
-                Debug.LogError($"[NeonRunner25D] {scene} is missing - run Neon Runner/Build Tutorial + Chaos Mode first.");
+                Debug.LogError($"[NeonRunner25D] {scene} is missing - run Neon Rush/Build Tutorial + Chaos Mode first.");
                 return;
             }
 
         // Only the game's scenes ship, menu first so the game boots into it.
         EditorBuildSettings.scenes = scenes.Select(s => new EditorBuildSettingsScene(s, true)).ToArray();
 
-        PlayerSettings.productName = "Neon Runner";
-        PlayerSettings.companyName = "Neon Runner";
+        PlayerSettings.productName = "Neon Rush";
+        PlayerSettings.companyName = "Neon Rush";
         PlayerSettings.bundleVersion = "1.0.0";
         PlayerSettings.fullScreenMode = FullScreenMode.FullScreenWindow;
         PlayerSettings.resizableWindow = true;

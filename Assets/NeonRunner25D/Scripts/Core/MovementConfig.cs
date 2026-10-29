@@ -3,7 +3,7 @@ using UnityEngine;
 namespace NeonRunner
 {
     /// <summary>Every tunable number for the player's movement and arm lives here.</summary>
-    [CreateAssetMenu(menuName = "Neon Runner/Movement Config", fileName = "MovementConfig")]
+    [CreateAssetMenu(menuName = "Neon Rush/Movement Config", fileName = "MovementConfig")]
     public class MovementConfig : ScriptableObject
     {
         [Header("Run")]

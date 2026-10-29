@@ -13,7 +13,7 @@ using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
 /// <summary>
-/// Builds the 2.5D Neon Runner demo: gameplay on the XY plane (Physics2D, same
+/// Builds the 2.5D Neon Rush demo: gameplay on the XY plane (Physics2D, same
 /// code as the 2D version) presented with 3D models, a perspective camera, fog
 /// and real depth. Uses Kenney's CC0 Animated Characters 2 and City Kit
 /// (Commercial). Safe to re-run.
@@ -68,7 +68,7 @@ public static partial class NeonRunner25DBuilder
 
     static string LevelPath(LevelSpec spec) => $"{Root}/Scenes/{spec.scene}.unity";
 
-    [MenuItem("Neon Runner/Build Tutorial + Chaos Mode")]
+    [MenuItem("Neon Rush/Build Tutorial + Chaos Mode")]
     public static void Build()
     {
         foreach (var dir in new[] { Root, Gen, Mats, Anim, Root + "/Scenes", Root + "/Settings" }) Directory.CreateDirectory(dir);
@@ -96,7 +96,7 @@ public static partial class NeonRunner25DBuilder
     }
 
     /// <summary>Rebuilds only Chaos Mode with a fresh random layout.</summary>
-    [MenuItem("Neon Runner/Reroll Chaos Mode Layout")]
+    [MenuItem("Neon Rush/Reroll Chaos Mode Layout")]
     public static void RerollChaos()
     {
         chaosSeed = Environment.TickCount;

@@ -18,7 +18,7 @@ public static partial class NeonRunner25DBuilder
     const string MenuMusicPath = Root + "/Audio/DeltaForTheDelta.mp3";
     const float MenuMusicStart = 60f;
 
-    [MenuItem("Neon Runner/Build Main Menu")]
+    [MenuItem("Neon Rush/Build Main Menu")]
     public static void BuildMainMenu()
     {
         // Built additively so whatever scene is open (and its unsaved edits) is left alone.

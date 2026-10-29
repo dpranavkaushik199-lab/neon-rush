@@ -110,7 +110,7 @@ namespace NeonRunner
             var frame = new Rect(m, m, w - m * 2f, h - m * 2f);
             NeonGUI.Brackets(frame, NeonGUI.WithAlpha(Theme.Accent, 0.7f), 34f * s, 2f * s);
             var muted = NeonGUI.WithAlpha(Theme.Muted, 0.9f);
-            NeonGUI.Mono(new Rect(frame.x + 46f * s, frame.y + 6f * s, 700f * s, 16f * s), "NEON RUNNER // TACTICAL EVASION INTERFACE", 11, muted, TextAnchor.UpperLeft, FontStyle.Bold);
+            NeonGUI.Mono(new Rect(frame.x + 46f * s, frame.y + 6f * s, 700f * s, 16f * s), "NEON RUSH // TACTICAL EVASION INTERFACE", 11, muted, TextAnchor.UpperLeft, FontStyle.Bold);
             NeonGUI.Mono(new Rect(frame.xMax - 746f * s, frame.y + 6f * s, 700f * s, 16f * s),
                 $"SYS {NeonGUI.Hex(1f)} // {DateTime.Now:HH:mm:ss}", 11, muted, TextAnchor.UpperRight, FontStyle.Bold);
             bool pad = Gamepad.current != null;
@@ -128,7 +128,7 @@ namespace NeonRunner
             float x = w * 0.08f, top = h * 0.17f;
             NeonGUI.Mono(new Rect(x, top, 600f * s, 20f * s), "// EVASION PROTOCOL  v2.5", 14, Theme.Accent2, TextAnchor.UpperLeft, FontStyle.Bold);
             NeonGUI.GlitchText(new Rect(x - 6f * s, top + 18f * s, w, 150f * s), "NEON", 150, Theme.Text, TextAnchor.UpperLeft, 1f, 3f, titleFace: true, intensity: 1.4f);
-            NeonGUI.GlitchText(new Rect(x - 6f * s, top + 150f * s, w, 150f * s), "RUNNER", 150, Theme.Accent, TextAnchor.UpperLeft, 2f, 3f, titleFace: true, intensity: 1.4f);
+            NeonGUI.GlitchText(new Rect(x - 6f * s, top + 150f * s, w, 150f * s), "RUSH", 150, Theme.Accent, TextAnchor.UpperLeft, 2f, 3f, titleFace: true, intensity: 1.4f);
             float bar = top + 318f * s;
             NeonGUI.Hazard(new Rect(x, bar, 260f * s, 14f * s), Theme.Accent2, 5f, 0.6f);
             NeonGUI.Fill(new Rect(x + 270f * s, bar + 6f * s, 220f * s, 2f * s), NeonGUI.WithAlpha(Theme.Accent2, 0.6f));
