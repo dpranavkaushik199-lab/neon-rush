@@ -12,7 +12,7 @@ using UnityEngine;
 public static class NeonRunner25DRelease
 {
     const string OutputDir = "Builds/Windows";
-    const string ExeName = "NeonRunner.exe";
+    const string ExeName = "NeonRush.exe";
 
     [MenuItem("Neon Rush/Build Game (Windows)")]
     public static void BuildWindows()
